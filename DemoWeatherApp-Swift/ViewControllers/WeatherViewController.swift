@@ -40,6 +40,9 @@ class WeatherViewController: UIViewController {
             }),
             UIAction(title: "Burgas", handler: {(_) in
                 self.changeLocation(location: .burgas)
+            }),
+            UIAction(title: "Plovdiv", handler: {(_) in
+                self.changeLocation(location: .plovid)
             })
         ])
         
@@ -69,6 +72,10 @@ class WeatherViewController: UIViewController {
         case .burgas:
             header?.updateHeader(location: "Burgas")
             weatherObject = WeatherRequestManager(location: .burgas)
+            self.weatherObject.getWeatherData()
+        case .plovid:
+            header?.updateHeader(location: "Plovdiv")
+            weatherObject = WeatherRequestManager(location: .plovid)
             self.weatherObject.getWeatherData()
         }
     }

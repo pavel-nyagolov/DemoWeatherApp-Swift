@@ -11,6 +11,8 @@ enum Location: String {
     case varna = "https://api.open-meteo.com/v1/forecast?latitude=43.22&longitude=27.92&hourly=temperature_2m,relativehumidity_2m,weathercode,pressure_msl,windspeed_10m,winddirection_10m&current_weather=true"
     case sofia = "https://api.open-meteo.com/v1/forecast?latitude=42.70&longitude=23.32&hourly=temperature_2m,relativehumidity_2m,weathercode,pressure_msl,windspeed_10m,winddirection_10m&current_weather=true"
     case burgas = "https://api.open-meteo.com/v1/forecast?latitude=42.51&longitude=27.47&hourly=temperature_2m,relativehumidity_2m,weathercode,pressure_msl,windspeed_10m,winddirection_10m&current_weather=true"
+    
+    case plovid = "https://api.open-meteo.com/v1/forecast?latitude=42.15&longitude=24.75&hourly=temperature_2m,relativehumidity_2m,weathercode,pressure_msl,windspeed_10m,winddirection_10m&current_weather=true"
 }
 
 enum DataType {

@@ -70,11 +70,11 @@
 		E9C3C51B29DAE30100118119 /* DemoWeatherApp-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				E9C3C53329DAE97D00118119 /* Models */,
 				E9C3C53029DAE6F200118119 /* Utils */,
 				E9C3C53F29DAEC4300118119 /* Views */,
 				E9C3C53B29DAE9D600118119 /* Extensions */,
 				E9C3C53629DAE99000118119 /* Managers */,
-				E9C3C53329DAE97D00118119 /* Models */,
 				E9C3C53E29DAEA6500118119 /* ViewControllers */,
 				E9C3C54229DAEFDD00118119 /* Storyboards */,
 				E9C3C51C29DAE30100118119 /* AppDelegate.swift */,
@@ -89,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				E9C3C53129DAE6FE00118119 /* Constants.swift */,
-				E9C3C53729DAE9A700118119 /* Weather+Enums.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -98,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				E9C3C53429DAE98700118119 /* Weather.swift */,
+				E9C3C53729DAE9A700118119 /* Weather+Enums.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";

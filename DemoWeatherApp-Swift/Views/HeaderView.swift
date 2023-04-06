@@ -72,7 +72,6 @@ class HeaderView: UITableViewHeaderFooterView {
     }
     
     func updateHeader(location: String) {
-        print("in \(location)")
         locationLabel.text = location
     }
     
