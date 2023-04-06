@@ -20,14 +20,10 @@ class WeatherViewController: UIViewController {
     var weatherObject = WeatherRequestManager(location: .sofia)
     var weatherModel: [DataType: Any]?
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        startSpinner()
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(HeaderView.self, forHeaderFooterViewReuseIdentifier: Constants.headerIdentifier)
+        startSpinner()
         addRefreshControl()
         
         

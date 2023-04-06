@@ -11,6 +11,6 @@ struct LoadingView {
     var spinnerView: UIView?
     var blurEffectView: UIVisualEffectView?
     
-    var blurEffect = UIBlurEffect(style: UIBlurEffect.Style.light)
+    var blurEffect = UIBlurEffect(style: UIBlurEffect.Style.dark)
     var spinner = UIActivityIndicatorView(style: .large)
 }
